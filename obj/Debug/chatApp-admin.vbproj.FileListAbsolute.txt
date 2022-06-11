@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\chatApp-admin\bin\Debug\chatApp-admin.exe.config
+C:\Users\user\source\repos\chatApp-admin\bin\Debug\chatApp-admin.exe
+C:\Users\user\source\repos\chatApp-admin\bin\Debug\chatApp-admin.pdb
+C:\Users\user\source\repos\chatApp-admin\bin\Debug\chatApp-admin.xml
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp-admin.vbproj.AssemblyReference.cache
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp_admin.ForgotPassword.resources
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp_admin.Form1.resources
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp_admin.Resources.resources
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp_admin.Register.resources
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp-admin.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp-admin.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp-admin.exe
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp-admin.xml
+C:\Users\user\source\repos\chatApp-admin\obj\Debug\chatApp-admin.pdb
