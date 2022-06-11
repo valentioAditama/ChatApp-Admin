@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataChat.Designer.vb">
+      <DependentUpon>DataChat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataChat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataUsers.Designer.vb">
+      <DependentUpon>DataUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ForgotPassword.Designer.vb">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
     </Compile>
@@ -84,6 +96,12 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -109,11 +127,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DataChat.resx">
+      <DependentUpon>DataChat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataUsers.resx">
+      <DependentUpon>DataUsers.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -145,6 +172,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\20944201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software-engineer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-users-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-feedback-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chat-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-chat-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
