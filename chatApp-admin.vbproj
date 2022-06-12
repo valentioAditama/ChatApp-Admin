@@ -166,16 +166,52 @@
     <Compile Include="ManageDataChat.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ManageDataChatEdit.Designer.vb">
+      <DependentUpon>ManageDataChatEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDataChatEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDataChatDelete.Designer.vb">
+      <DependentUpon>ManageDataChatDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDataChatDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ManageDataFeedback.Designer.vb">
       <DependentUpon>ManageDataFeedback.vb</DependentUpon>
     </Compile>
     <Compile Include="ManageDataFeedback.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ManageDataFeedbackDelete.Designer.vb">
+      <DependentUpon>ManageDataFeedbackDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDataFeedbackDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDataFeedbackEdit.Designer.vb">
+      <DependentUpon>ManageDataFeedbackEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDataFeedbackEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ManageDataUsers.Designer.vb">
       <DependentUpon>ManageDataUsers.vb</DependentUpon>
     </Compile>
     <Compile Include="ManageDataUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDataUsersDelete.Designer.vb">
+      <DependentUpon>ManageDataUsersDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDataUsersDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageDataUsersEdit.Designer.vb">
+      <DependentUpon>ManageDataUsersEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDataUsersEdit.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module_koneksi.vb" />
@@ -226,11 +262,29 @@
     <EmbeddedResource Include="ManageDataChat.resx">
       <DependentUpon>ManageDataChat.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageDataChatDelete.resx">
+      <DependentUpon>ManageDataChatDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDataChatEdit.resx">
+      <DependentUpon>ManageDataChatEdit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageDataFeedback.resx">
       <DependentUpon>ManageDataFeedback.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageDataFeedbackDelete.resx">
+      <DependentUpon>ManageDataFeedbackDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDataFeedbackEdit.resx">
+      <DependentUpon>ManageDataFeedbackEdit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageDataUsers.resx">
       <DependentUpon>ManageDataUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDataUsersDelete.resx">
+      <DependentUpon>ManageDataUsersDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageDataUsersEdit.resx">
+      <DependentUpon>ManageDataUsersEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -23,8 +23,6 @@ Partial Class DataUsers
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DataUsers))
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -33,34 +31,19 @@ Partial Class DataUsers
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.BtnKembali = New System.Windows.Forms.Button()
-        Me.btnManageData = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BtnTambah = New System.Windows.Forms.Button()
+        Me.BtnHapus = New System.Windows.Forms.Button()
+        Me.BtnEdit = New System.Windows.Forms.Button()
+        Me.BtnRefresh = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.chatApp_admin.My.Resources.Resources.software_engineer
-        Me.PictureBox1.Location = New System.Drawing.Point(72, 34)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(152, 153)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 28
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.chatApp_admin.My.Resources.Resources.shutdown
-        Me.PictureBox2.Location = New System.Drawing.Point(166, 463)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(104, 91)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 31
-        Me.PictureBox2.TabStop = False
         '
         'Label2
         '
@@ -158,24 +141,101 @@ Partial Class DataUsers
         Me.BtnKembali.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.BtnKembali.UseVisualStyleBackColor = False
         '
-        'btnManageData
+        'BtnTambah
         '
-        Me.btnManageData.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
-        Me.btnManageData.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.BtnTambah.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
+        Me.BtnTambah.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnManageData.BackColor = System.Drawing.Color.Gray
-        Me.btnManageData.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnManageData.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnManageData.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnManageData.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnManageData.Location = New System.Drawing.Point(849, 551)
-        Me.btnManageData.Name = "btnManageData"
-        Me.btnManageData.Size = New System.Drawing.Size(137, 48)
-        Me.btnManageData.TabIndex = 44
-        Me.btnManageData.Text = "Manage Data"
-        Me.btnManageData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.btnManageData.UseVisualStyleBackColor = False
+        Me.BtnTambah.BackColor = System.Drawing.Color.Gray
+        Me.BtnTambah.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnTambah.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnTambah.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnTambah.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnTambah.Location = New System.Drawing.Point(859, 551)
+        Me.BtnTambah.Name = "BtnTambah"
+        Me.BtnTambah.Size = New System.Drawing.Size(137, 48)
+        Me.BtnTambah.TabIndex = 52
+        Me.BtnTambah.Text = "Tambah Data"
+        Me.BtnTambah.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnTambah.UseVisualStyleBackColor = False
+        '
+        'BtnHapus
+        '
+        Me.BtnHapus.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
+        Me.BtnHapus.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnHapus.BackColor = System.Drawing.Color.Gray
+        Me.BtnHapus.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnHapus.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnHapus.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnHapus.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnHapus.Location = New System.Drawing.Point(706, 551)
+        Me.BtnHapus.Name = "BtnHapus"
+        Me.BtnHapus.Size = New System.Drawing.Size(137, 48)
+        Me.BtnHapus.TabIndex = 51
+        Me.BtnHapus.Text = "Hapus Data"
+        Me.BtnHapus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnHapus.UseVisualStyleBackColor = False
+        '
+        'BtnEdit
+        '
+        Me.BtnEdit.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
+        Me.BtnEdit.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnEdit.BackColor = System.Drawing.Color.Gray
+        Me.BtnEdit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnEdit.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnEdit.Location = New System.Drawing.Point(551, 551)
+        Me.BtnEdit.Name = "BtnEdit"
+        Me.BtnEdit.Size = New System.Drawing.Size(137, 48)
+        Me.BtnEdit.TabIndex = 50
+        Me.BtnEdit.Text = "Edit"
+        Me.BtnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnEdit.UseVisualStyleBackColor = False
+        '
+        'BtnRefresh
+        '
+        Me.BtnRefresh.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
+        Me.BtnRefresh.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnRefresh.BackColor = System.Drawing.Color.Gray
+        Me.BtnRefresh.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnRefresh.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnRefresh.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnRefresh.Location = New System.Drawing.Point(189, 551)
+        Me.BtnRefresh.Name = "BtnRefresh"
+        Me.BtnRefresh.Size = New System.Drawing.Size(137, 48)
+        Me.BtnRefresh.TabIndex = 53
+        Me.BtnRefresh.Text = "Refresh"
+        Me.BtnRefresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnRefresh.UseVisualStyleBackColor = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.chatApp_admin.My.Resources.Resources.shutdown
+        Me.PictureBox2.Location = New System.Drawing.Point(166, 463)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(104, 91)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 31
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.chatApp_admin.My.Resources.Resources.software_engineer
+        Me.PictureBox1.Location = New System.Drawing.Point(72, 34)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(152, 153)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 28
+        Me.PictureBox1.TabStop = False
         '
         'DataUsers
         '
@@ -183,7 +243,10 @@ Partial Class DataUsers
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1329, 630)
-        Me.Controls.Add(Me.btnManageData)
+        Me.Controls.Add(Me.BtnRefresh)
+        Me.Controls.Add(Me.BtnTambah)
+        Me.Controls.Add(Me.BtnHapus)
+        Me.Controls.Add(Me.BtnEdit)
         Me.Controls.Add(Me.BtnKembali)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Panel1)
@@ -191,13 +254,13 @@ Partial Class DataUsers
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "DataUsers"
         Me.Text = "Data Users"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -212,5 +275,8 @@ Partial Class DataUsers
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents BtnKembali As Button
-    Friend WithEvents btnManageData As Button
+    Friend WithEvents BtnTambah As Button
+    Friend WithEvents BtnHapus As Button
+    Friend WithEvents BtnEdit As Button
+    Friend WithEvents BtnRefresh As Button
 End Class

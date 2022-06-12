@@ -57,3 +57,9 @@ C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp-admin.vbproj.C
 C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.Home2.resources
 C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.DataFeedback.resources
 C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataFeedback.resources
+C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataUsersEdit.resources
+C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataUsersDelete.resources
+C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataFeedbackDelete.resources
+C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataFeedbackEdit.resources
+C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataChatDelete.resources
+C:\Users\user\source\repos\ChatApp_Vb.Net-Admin\obj\Debug\chatApp_admin.ManageDataChatEdit.resources
