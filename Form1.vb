@@ -23,6 +23,23 @@ Public Class Form1
         End If
     End Sub
 
+    Public Sub load_data()
+        Dim connection As New MySqlConnection("Datasource=localhost;port=3306;username=root;password=;database=chatapp")
+        connection.Open()
+
+        Dim cmd As New MySqlCommand("SELECT( SELECT COUNT(*) FROM users ) AS Total_users, (SELECT COUNT(*) FROM feedback ) AS Total_feedback, (SELECT COUNT(*) FROM chat ) AS Total_chat", connection)
+
+        Dim myreader As MySqlDataReader
+
+        myreader = cmd.ExecuteReader()
+
+        myreader.Read()
+
+        Home2.lblShowTotalUsers.Text = myreader("Total_users")
+        Home2.lblShowFeedback.Text = myreader("Total_feedback")
+        Home2.LblShowTotalChat.Text = myreader("Total_chat")
+    End Sub
+
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles BtnLogin.Click
         If TxtxboxUsername.Text = "" Or TxtboxPassword.Text = "" Then
             MsgBox("Field Tidak boleh kosong!")

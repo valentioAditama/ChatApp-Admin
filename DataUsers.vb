@@ -14,6 +14,7 @@ Public Class DataUsers
     Private Sub BtnKembali_Click(sender As Object, e As EventArgs) Handles BtnKembali.Click
         Home2.Show()
         Me.Hide()
+        Form1.load_data()
     End Sub
 
     Private Sub btnManageData_Click(sender As Object, e As EventArgs)
