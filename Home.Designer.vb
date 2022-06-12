@@ -30,18 +30,18 @@ Partial Class Home
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.BtnVerifyEmail = New System.Windows.Forms.Button()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
@@ -144,25 +144,16 @@ Partial Class Home
         Me.Panel2.Size = New System.Drawing.Size(281, 123)
         Me.Panel2.TabIndex = 34
         '
-        'Panel3
+        'Label6
         '
-        Me.Panel3.Controls.Add(Me.Label7)
-        Me.Panel3.Controls.Add(Me.PictureBox4)
-        Me.Panel3.Controls.Add(Me.Label8)
-        Me.Panel3.Location = New System.Drawing.Point(358, 101)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(281, 123)
-        Me.Panel3.TabIndex = 35
-        '
-        'Panel4
-        '
-        Me.Panel4.Controls.Add(Me.Label9)
-        Me.Panel4.Controls.Add(Me.PictureBox5)
-        Me.Panel4.Controls.Add(Me.Label10)
-        Me.Panel4.Location = New System.Drawing.Point(670, 101)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(281, 123)
-        Me.Panel4.TabIndex = 36
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Candara", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label6.Location = New System.Drawing.Point(146, 59)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(80, 40)
+        Me.Label6.TabIndex = 38
+        Me.Label6.Text = "1200"
         '
         'Label5
         '
@@ -175,16 +166,15 @@ Partial Class Home
         Me.Label5.TabIndex = 37
         Me.Label5.Text = "Total Users"
         '
-        'Label6
+        'Panel3
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Candara", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label6.Location = New System.Drawing.Point(146, 59)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(81, 41)
-        Me.Label6.TabIndex = 38
-        Me.Label6.Text = "1200"
+        Me.Panel3.Controls.Add(Me.Label7)
+        Me.Panel3.Controls.Add(Me.PictureBox4)
+        Me.Panel3.Controls.Add(Me.Label8)
+        Me.Panel3.Location = New System.Drawing.Point(358, 101)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(281, 123)
+        Me.Panel3.TabIndex = 35
         '
         'Label7
         '
@@ -193,7 +183,7 @@ Partial Class Home
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label7.Location = New System.Drawing.Point(148, 59)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(81, 41)
+        Me.Label7.Size = New System.Drawing.Size(80, 40)
         Me.Label7.TabIndex = 40
         Me.Label7.Text = "1200"
         '
@@ -208,6 +198,16 @@ Partial Class Home
         Me.Label8.TabIndex = 39
         Me.Label8.Text = "Total Feedback"
         '
+        'Panel4
+        '
+        Me.Panel4.Controls.Add(Me.Label9)
+        Me.Panel4.Controls.Add(Me.PictureBox5)
+        Me.Panel4.Controls.Add(Me.Label10)
+        Me.Panel4.Location = New System.Drawing.Point(670, 101)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(281, 123)
+        Me.Panel4.TabIndex = 36
+        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -215,7 +215,7 @@ Partial Class Home
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label9.Location = New System.Drawing.Point(149, 59)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(81, 41)
+        Me.Label9.Size = New System.Drawing.Size(80, 40)
         Me.Label9.TabIndex = 42
         Me.Label9.Text = "1200"
         '
@@ -240,27 +240,6 @@ Partial Class Home
         Me.Panel5.Size = New System.Drawing.Size(316, 138)
         Me.Panel5.TabIndex = 39
         '
-        'Panel6
-        '
-        Me.Panel6.Controls.Add(Me.Button1)
-        Me.Panel6.Controls.Add(Me.PictureBox7)
-        Me.Panel6.Controls.Add(Me.Label12)
-        Me.Panel6.Location = New System.Drawing.Point(526, 341)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(316, 138)
-        Me.Panel6.TabIndex = 40
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Candara Light", 15.0!)
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label11.Location = New System.Drawing.Point(160, 24)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(127, 31)
-        Me.Label11.TabIndex = 40
-        Me.Label11.Text = "Data users "
-        '
         'BtnVerifyEmail
         '
         Me.BtnVerifyEmail.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
@@ -279,6 +258,27 @@ Partial Class Home
         Me.BtnVerifyEmail.Text = "Klik DIsini"
         Me.BtnVerifyEmail.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.BtnVerifyEmail.UseVisualStyleBackColor = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Candara Light", 15.0!)
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label11.Location = New System.Drawing.Point(160, 24)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(127, 31)
+        Me.Label11.TabIndex = 40
+        Me.Label11.Text = "Data users "
+        '
+        'Panel6
+        '
+        Me.Panel6.Controls.Add(Me.Button1)
+        Me.Panel6.Controls.Add(Me.PictureBox7)
+        Me.Panel6.Controls.Add(Me.Label12)
+        Me.Panel6.Location = New System.Drawing.Point(526, 341)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(316, 138)
+        Me.Panel6.TabIndex = 40
         '
         'Button1
         '

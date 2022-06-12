@@ -31,7 +31,7 @@ Partial Class DataChat
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btnManageData = New System.Windows.Forms.Button()
-        Me.BtnVerifyEmail = New System.Windows.Forms.Button()
+        Me.BtnKembali = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -139,24 +139,24 @@ Partial Class DataChat
         Me.btnManageData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.btnManageData.UseVisualStyleBackColor = False
         '
-        'BtnVerifyEmail
+        'BtnKembali
         '
-        Me.BtnVerifyEmail.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
-        Me.BtnVerifyEmail.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.BtnKembali.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonMenu
+        Me.BtnKembali.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.BtnVerifyEmail.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BtnVerifyEmail.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnVerifyEmail.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.BtnVerifyEmail.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnVerifyEmail.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnVerifyEmail.Location = New System.Drawing.Point(22, 551)
-        Me.BtnVerifyEmail.Name = "BtnVerifyEmail"
-        Me.BtnVerifyEmail.Size = New System.Drawing.Size(137, 48)
-        Me.BtnVerifyEmail.TabIndex = 47
-        Me.BtnVerifyEmail.Text = "Kembali"
-        Me.BtnVerifyEmail.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        Me.BtnVerifyEmail.UseVisualStyleBackColor = False
+        Me.BtnKembali.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BtnKembali.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnKembali.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnKembali.Font = New System.Drawing.Font("Bahnschrift", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnKembali.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.BtnKembali.Location = New System.Drawing.Point(22, 551)
+        Me.BtnKembali.Name = "BtnKembali"
+        Me.BtnKembali.Size = New System.Drawing.Size(137, 48)
+        Me.BtnKembali.TabIndex = 47
+        Me.BtnKembali.Text = "Kembali"
+        Me.BtnKembali.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnKembali.UseVisualStyleBackColor = False
         '
         'GroupBox2
         '
@@ -184,7 +184,7 @@ Partial Class DataChat
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1329, 630)
         Me.Controls.Add(Me.btnManageData)
-        Me.Controls.Add(Me.BtnVerifyEmail)
+        Me.Controls.Add(Me.BtnKembali)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -210,7 +210,7 @@ Partial Class DataChat
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents btnManageData As Button
-    Friend WithEvents BtnVerifyEmail As Button
+    Friend WithEvents BtnKembali As Button
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Panel1 As Panel
 End Class

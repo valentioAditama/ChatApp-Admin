@@ -9,8 +9,12 @@
         Me.Hide()
     End Sub
 
-    Private Sub BtnVerifyEmail_Click(sender As Object, e As EventArgs) Handles BtnVerifyEmail.Click
-        Home.Show()
+    Private Sub BtnKembali_Click(sender As Object, e As EventArgs) Handles BtnKembali.Click
+        Home2.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub btnManageData_Click(sender As Object, e As EventArgs) Handles btnManageData.Click
+        ManageDataUsers.Show()
     End Sub
 End Class
